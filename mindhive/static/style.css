@@ -101,3 +101,20 @@ button[type="submit"] {
   border-radius: 3px;
   cursor: pointer;
 }
+
+a {
+  color: #007bff; /* Blue by default */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Indicate clickable behavior */
+}
+
+/* Styles for links on hover */
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styles for visited links (optional) */
+a:visited {
+  color: #6c757d; /* Grayish color for visited links */
+}

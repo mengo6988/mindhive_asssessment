@@ -20,6 +20,7 @@ db = SQLAlchemy(app)
 
 @app.route("/")
 def index():
+    print("rendering")
     return render_template("index.html")
 
 

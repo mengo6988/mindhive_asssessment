@@ -1,3 +1,4 @@
 my_env/
-__pycached__
+.gitignore
 bootstrap.sh
+__pycache__

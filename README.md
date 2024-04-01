@@ -48,4 +48,5 @@ Contributing
 # Additional Notes
 
 Replace api-key in index.html if you want to test out the google maps API as well.
+src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=initMap"
 https://developers.google.com/maps/documentation/javascript/overview

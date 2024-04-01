@@ -27,10 +27,12 @@ function createOutletElement(outlet) {
   const waze = document.createElement("a");
   waze.title = "Waze";
   waze.href = outlet.waze;
+  waze.innerText = "Waze";
   infobox.appendChild(waze);
 
   const parent = document.getElementById("sidebar");
-  console.log(parent);
+  parent.innerHTML = "";
+  // console.log(parent);
   parent.appendChild(outletContainer);
 }
 

@@ -15,7 +15,7 @@ To get started with this project, you'll need Python 3 and pip (the package inst
 Clone the repository:
 
 Bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/mengo6988/mindhive_asssessment.git
 Use code with caution.
 
  Install dependencies:
